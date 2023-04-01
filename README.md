@@ -1,4 +1,6 @@
-![react app banner](https://user-images.githubusercontent.com/15303963/84329475-1e7b6b80-ab5b-11ea-828d-9249c79ab522.png)
+<h1>React Native Boilerplate</h1>
+
+![react app banner](https://lh3.googleusercontent.com/p/AF1QipPAnUXH-Lx04hyORxwIO2thkNMOyba4VNe8qikj=s1360-w1360-h1020)
 
 <p align="center"><strong>An opinionated boilerplate code for starting a new react native mobile project.</strong></p>
 
