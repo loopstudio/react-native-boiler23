@@ -8,6 +8,10 @@
 
 ## Prerequisites
 
+To set up the environments it's recommended to follow the [official documentation](https://reactnative.dev/docs/environment-setup)
+
+Otherwise follow the next steps:
+
 Before proceeding, make sure you have the following installed on your machine:
 
 - Node.js
