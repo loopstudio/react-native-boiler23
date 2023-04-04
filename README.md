@@ -89,6 +89,9 @@ To run the project on an iOS device, follow these steps:
 This will compile the project and run it on an iOS simulator on your machine.
 
 ## Pre-commit and pre-push hooks:
+# react-native-boiler23
+
+## IMPORTANT:
 
 We use `husky` as a tool to run the linter and unit testing when commiting and pushing new changes. In order to get it working you need to install it firt by running:
 ```bash
