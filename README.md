@@ -88,6 +88,25 @@ To run the project on an iOS device, follow these steps:
 
 This will compile the project and run it on an iOS simulator on your machine.
 
+## Pre-commit and pre-push hooks:
+
+We use `husky` as a tool to run the linter and unit testing when commiting and pushing new changes. In order to get it working you need to install it firt by running:
+```bash
+yarn run prepare:husky
+```
+
+NOTE: This has to be run locally just once.
+
+### We have added a `pre-commit` and `pre-push` hooks, so linter and test are run before pushing the code to the remote. If for some reason you don't want these processes to be run, add the flag ` --no-verify`, for example:
+
+```bash
+# commit
+git commit --no-verify -m "commit message"
+# push
+git push --no-verify
+```
+
+
 ## Conclusion
 
 That's it! Now you know how to install and run the React Native project for Android and iOS. If you have any questions or issues, feel free to ask in the React Native help forums or the repository issues.
