@@ -89,7 +89,6 @@ To run the project on an iOS device, follow these steps:
 This will compile the project and run it on an iOS simulator on your machine.
 
 ## Pre-commit and pre-push hooks:
-# react-native-boiler23
 
 ## IMPORTANT:
 
