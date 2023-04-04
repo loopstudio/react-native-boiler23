@@ -15,9 +15,9 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <PrimaryText title={t('welcome')} style={styles.title} />
-      <Button title={t('goToDetails')} onPress={goToDetails} />
-      <Button title={t('changeLanguage')} onPress={changeLanguage} />
+      <PrimaryText title={t('home:welcome')} style={styles.title} />
+      <Button title={t('home:goToDetails')} onPress={goToDetails} />
+      <Button title={t('commons:changeLanguage')} onPress={changeLanguage} />
     </View>
   );
 };
