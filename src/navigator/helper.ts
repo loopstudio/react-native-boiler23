@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {StackActions} from '@react-navigation/native';
 import {createRef} from 'react';
 

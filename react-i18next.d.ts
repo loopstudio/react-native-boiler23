@@ -1,6 +1,7 @@
 import 'react-i18next';
-import commons from './src/locales/en/commons.json';
-import home from './src/locales/en/screens/home.json';
+import commons from './src/locales/en/commons';
+import home from './src/locales/en/screens/home';
+
 declare module 'react-i18next' {
   // and extend them!
   interface CustomTypeOptions {
