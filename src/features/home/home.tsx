@@ -9,6 +9,7 @@ import {changeLanguage} from '../../locales/i18n.config';
 
 const Home = () => {
   const {t} = useTranslation();
+
   const goToDetails = () => {
     NavigateToScreen(screenNames.details);
   };

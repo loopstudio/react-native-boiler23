@@ -1,9 +1,10 @@
 import i18n from 'i18next';
 import {initReactI18next} from 'react-i18next';
+
 import * as RNLocalize from 'react-native-localize';
 import languages from './constants/languages';
 import enTranslations from './en';
-import esTranslations from './sp';
+import esTranslations from './es';
 
 export const changeLanguage = () => {
   i18n.language === 'en'
