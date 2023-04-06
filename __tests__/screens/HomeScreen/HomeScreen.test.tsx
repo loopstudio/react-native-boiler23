@@ -5,6 +5,7 @@ import HomeScreen from '../../../src/screens/HomeScreen/HomeScreen';
 describe('Test for HomeScreen', () => {
   it('should be render correctly the screen', async () => {
     render(<HomeScreen />);
-    expect(screen.findByTestId('homeTest')).toBeDefined();
+    const homeTest = await screen.queryByTestId('homeTest');
+    expect(homeTest).toBeDefined();
   });
 });
