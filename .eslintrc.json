@@ -39,6 +39,7 @@
     "react/jsx-no-useless-fragment": "off",
     "no-restricted-syntax": "off",
     "guard-for-in": "off",
+    "react/no-unstable-nested-components": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
