@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import theme from '../../constants/theme';
 
 const styles = StyleSheet.create({
   container: {
@@ -8,7 +9,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 16,
+    fontSize: theme.fontSizes.xlarge,
     fontWeight: 'bold',
     fontStyle: 'italic',
   },
