@@ -2,7 +2,7 @@ import React from 'react';
 import Home from '../../features/home/home';
 
 const HomeScreen = () => {
-  return <Home data-testId="homeTest" />;
+  return <Home data-test-id="homeTest" />;
 };
 
 export default HomeScreen;
