@@ -14,4 +14,11 @@ const fontSizes = {
   xlarge: RFValue(18),
 };
 
-export default {colors, fontSizes};
+const iconSize = {
+  small: RFValue(20),
+  regular: RFValue(30),
+  large: RFValue(50),
+  xlarge: RFValue(80),
+};
+
+export default {colors, fontSizes, iconSize};

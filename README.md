@@ -223,6 +223,10 @@ If you want to split your component into pieces for readability, maintainability
 
 - [React Navigation Documentation](https://reactnavigation.org/): the most popular and powerful routing solution for React.
 
+### Icons:
+
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons): React Native Vector Icons is a library that provides a set of customizable vector icons for use in React Native applications. It includes popular icon sets such as Font Awesome, Material Icons, and Ionicons. The library allows developers to easily add high-quality icons to their applications and customize their appearance using various properties.
+
 ### Testing:
 
 - [jest](https://jestjs.io/): a delightful JavaScript Testing Framework with a focus on simplicity.

@@ -8,6 +8,7 @@ import {NavigateToScreen} from '../../navigator/helper';
 import {changeLanguage} from '../../locales/i18n.config';
 import languages from '../../locales/constants/languages';
 import Ionicons from '../commons/Icons/Ionicons';
+import theme from '../../constants/theme';
 
 const Home = () => {
   const {t} = useTranslation();
@@ -18,7 +19,7 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <Ionicons name="arrow-back" size={30} color="red" />
+      <Ionicons name="arrow-back" size={theme.iconSize.regular} color="red" />
       <PrimaryText title={t('home:welcome')} style={styles.title} />
       <Button title={t('home:goToDetails')} onPress={goToDetails} />
       <Button
