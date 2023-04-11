@@ -8,8 +8,6 @@ import Ionicons from '../../features/commons/Icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
-// TODO : When installing the react-native-vector-icons add an icon to the Tab.Screen
-
 const BottomNavigator = () => {
   return (
     <Tab.Navigator>
