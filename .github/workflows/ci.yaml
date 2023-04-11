@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Collecting NodeJS Version
+        id: prepare
+        run: |
+          version=$(cat .node-version | cut -d'/' -f2)
+          full_version=$(cat .node-version)
+
+          echo "node_version=$version" >> $GITHUB_OUTPUT
+
+          echo "Using Node Version      : ${version}"
+          echo "Using Node Full Version : ${full_version}"
+
+      - name: Setup NodeJS version
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ steps.prepare.outputs.full_version }}
+
+      - name: Run linter and test
+        shell: bash
+        run: yarn install && yarn run build:ci

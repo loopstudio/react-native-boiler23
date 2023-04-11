@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unstable-nested-components */
 import React from 'react';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
-import HomeScreen from '../../screens/homeScreen/homeScreen';
 import {bottomTabNames} from '../stackNavigator/screenNames';
 import DetailsScreen from '../../screens/DetailsScreen/detailsScreen';
 import Ionicons from '../../features/commons/Icons/Ionicons';
+import HomeScreen from '../../screens/HomeScreen/HomeScreen';
+
 
 const Tab = createBottomTabNavigator();
 
