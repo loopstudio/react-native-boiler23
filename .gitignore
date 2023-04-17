@@ -64,3 +64,4 @@ yarn-error.log
 
 # environment vars file
 .env
+.env.production
