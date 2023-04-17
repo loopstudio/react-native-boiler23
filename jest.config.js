@@ -1,8 +1,11 @@
 module.exports = {
   preset: 'react-native',
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   transform: {
     '^.+\\.tsx?$': 'babel-jest',
   },
-  testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$',
-  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
+  setupFilesAfterEnv: ['@testing-library/jest-native/extend-expect'],
+  transformIgnorePatterns: [
+    'node_modules/(?!(@react-native|react-native|react-native-vector-icons)/)',
+  ],
 };
