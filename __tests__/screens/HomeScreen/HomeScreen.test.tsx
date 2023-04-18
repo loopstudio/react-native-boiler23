@@ -1,11 +1,11 @@
-import * as React from 'react';
+import React from 'react';
 import {render, screen} from '@testing-library/react-native';
-import HomeScreen from '../../../src/screens/HomeScreen/HomeScreen';
+import HomeScreen from '../../../src/screens/homeScreen/homeScreen';
 
 describe('Test for HomeScreen', () => {
-  it('should be render correctly the screen', async () => {
+  it('should be render correctly the screen', () => {
     render(<HomeScreen />);
-    const homeTest = await screen.queryByTestId('homeTest');
+    const homeTest = screen.queryByTestId('homeTest');
     expect(homeTest).toBeDefined();
   });
 });
